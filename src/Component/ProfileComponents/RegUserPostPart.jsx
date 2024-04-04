@@ -4,7 +4,7 @@ import { RiVideoAddLine } from "react-icons/ri";
 import { BiBookmark } from "react-icons/bi";
 import RegUserPostCard from "./RegUserPostCard";
 const RegUserPostPart = () => {
-  const [activeTab, setActiveTab] = useState("");
+  const [activeTab, setActiveTab] = useState("Post");
   const tabs = [
     {
       tab: "Post",
